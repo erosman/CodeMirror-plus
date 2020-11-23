@@ -17,7 +17,7 @@ const editor = CodeMirror(document.body, {
   }
 });
 ```
-* **Note**: If a word is a sub-string of another, the longer word should be list first, otherwise the shorter word will amtch first and prevent matching of the the longer word e.g.
+* **Note**: If a word is a sub-string of another, the longer word should be listed first, otherwise the shorter word will match first and prevent matching of the the longer word e.g.
 
 ```js
 keyword: {
