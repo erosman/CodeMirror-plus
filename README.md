@@ -16,6 +16,7 @@ The same directory structure is maintained for ease of use.
 
 ### Details
 
-#### addon/mode/keyword.js
-
-Allows applying style to any keyword in any CodeMirror instance, with or without an active mode
+<dl>
+  <dt>addon/mode/keyword.js</dt>
+  <dd>Allows applying style to any keyword in any CodeMirror instance, with or without an active mode</dd>
+</dl>
