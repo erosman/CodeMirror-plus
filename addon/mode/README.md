@@ -2,8 +2,8 @@
 
 ## keyword.js
 
-* Install the file in /addon/mode/ or any preferred directory
-* Add the keyword: {word: style} option to the editor instance e.g.
+* Install the file in `/addon/mode/` or any preferred directory
+* Add the `keyword: {word: style}` option to the editor instance e.g.
 
 ```js
 const editor = CodeMirror(document.body, {
