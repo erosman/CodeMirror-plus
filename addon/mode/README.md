@@ -1,6 +1,7 @@
 # How to Use
 
 ## keyword.js
+Apply style to any keywords in any CodeMirror instance, with or without an active `mode`
 
 - Install the file in `/addon/mode/` or any preferred directory
 - Add the `keyword: {word: style}` option to the editor instance e.g.
