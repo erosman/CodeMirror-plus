@@ -16,7 +16,7 @@
       cm.removeOverlay("keyword");
     else if (!prev && val)
       cm.addOverlay({
-        token: function(stream) {console.log(stream);
+        token: function(stream) {
           var skip = 0;
           for (var key in cm.options.keyword) {
             if (stream.match(key)) {skip = key.length; return cm.options.keyword[key];}
