@@ -22,19 +22,18 @@ const editor = CodeMirror(document.body, {
 ```js
 keyword: {
     "nevertheless": "style1",
-    "never": "style1",
-    "word3": "style1"
+    "never": "style1"
   }
 ```
 
-* Add the corresponding CSS in existing `.css` or a new one. The style name will appear as .cm-_NAME_ e.g.
+* Add the corresponding CSS in existing `.css` or a new one. The style name will appear as `.cm-_NAME_` e.g.
 
 ```css
 .cm-style1 {
   color: maroon;
 }
 .cm-style2 {
-  color: #0f;
+  color: #00f;
 }
 ```
 
