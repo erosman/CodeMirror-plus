@@ -26,7 +26,7 @@ keyword: {
   }
 ```
 
-* Add the corresponding CSS in existing `.css` or a new one. The style name will appear as `.cm-_NAME_` e.g.
+* Add the corresponding CSS in existing `.css` or a new one. The style name will appear as `.cm-NAME` e.g.
 
 ```css
 .cm-style1 {
