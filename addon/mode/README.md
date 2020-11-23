@@ -37,4 +37,15 @@ keyword: {
 }
 ```
 
+In case other CSS that overrides the added CSS, use `!important` e.g.
+
+```css
+.cm-style1 {
+  color: maroon !important;
+}
+.cm-style2 {
+  color: #00f !important;
+}
+```
+
 * Add the necessary `<script>` & `<link rel="stylesheet">` to the HTML document
