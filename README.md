@@ -13,3 +13,9 @@ Check the corresponding README
 
 All code tested on Firefox with the latest [CodeMirror](https://github.com/codemirror/CodeMirror) v5 and written in the same style as the original CodeMirror to match compatibility with CodeMirror.
 The same directory structure is maintained for ease of use.
+
+### Details
+
+#### addon/mode/keyword.js
+
+Allows applying style to any keyword in any CodeMirror instance, with or without an active mode
