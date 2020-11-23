@@ -28,17 +28,6 @@ Apply style to any keywords in any CodeMirror instance, with or without an activ
     ```
 
 - Add the corresponding CSS in existing `.css` or a new one. The style name will appear as `.cm-NAME` e.g.
-
-    ```css
-    .cm-style1 {
-      color: maroon;
-    }
-    .cm-style2 {
-      color: #00f;
-    }
-    ```
-
-    In case other CSS that overrides the added CSS, use `!important` e.g.
     
     ```css
     .cm-style1 {
