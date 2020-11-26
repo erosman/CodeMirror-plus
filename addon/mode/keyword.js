@@ -1,5 +1,4 @@
-// copyright (c) by erosman
-// CodeMirror-plus: https://github.com/erosman/CodeMirror-plus
+// copyright (c) by erosman https://github.com/erosman/CodeMirror-plus
 // Distributed under an Mozilla Public License 2.0: https://www.mozilla.org/en-US/MPL/2.0/
 
 (function(mod) {
@@ -17,12 +16,10 @@
     else if (!prev && val)
       cm.addOverlay({
         token: function(stream) {
-          var skip = 0;
           for (var key in cm.options.keyword) {
-            if (stream.match(key)) {skip = key.length; return cm.options.keyword[key];}
+            if (stream.match(key, true)) {return cm.options.keyword[key];}
           }
           stream.next();
-          if (skip) stream.skipTo(skip);
         },
         name: "keyword"
       });
