@@ -1,6 +1,6 @@
 # How to Use
 
-keyword.js version 1.0 can be used for strings and was moved to keyword.1.0 fodler.
+keyword.js version 1.0 can be used for strings and was moved to keyword.1.0 folder.
 
 ## keyword.js
 Apply style to any keywords in any CodeMirror instance, with or without an active `mode`
