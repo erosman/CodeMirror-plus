@@ -23,7 +23,7 @@ Apply style to any keywords in any CodeMirror instance, with or without an activ
     ```js
     keyword: {
         "nevertheless": "style1",
-        "never": "style1"
+        "never": "style2"
       }
     ```
 
