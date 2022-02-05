@@ -1,7 +1,7 @@
 # How to Use
 
-- keyword.js version 1.0 can be used for strings only
-- keyword.js version 1.1 can be used for strings and Regular Expressions (#2)
+- keyword.1.0.js version 1.0 can be used for strings only
+- keyword.js version 1.1 can be used for strings and Regular Expressions ([#2](https://github.com/erosman/CodeMirror-plus/issues/2))
 
 ## keyword.js
 Apply style to any keywords in any CodeMirror instance, with or without an active `mode`
