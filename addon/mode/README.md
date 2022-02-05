@@ -4,7 +4,8 @@
 Apply style to any keywords in any CodeMirror instance, with or without an active `mode`
 
 - Install the file in `/addon/mode/` or any preferred directory
-- Add the `keyword: {word: style}` option to the editor instance e.g.
+- Add the `keyword: {word: style}` option to the editor instance
+- Strings are case-sensitive
  
     ```js
     const editor = CodeMirror(document.body, {
