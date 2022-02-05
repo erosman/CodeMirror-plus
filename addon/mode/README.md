@@ -1,11 +1,17 @@
 # How to Use
 
+- keyword.js version 1.0 can be used for strings only
+- keyword.js version 1.1 can be used for strings and Regular Expressions (#2)
+
 ## keyword.js
 Apply style to any keywords in any CodeMirror instance, with or without an active `mode`
 
 - Install the file in `/addon/mode/` or any preferred directory
 - Add the `keyword: {word: style}` option to the editor instance
 - Strings are case-sensitive
+- To use Regular Expression, start the key with `/`
+- Regular Expressions are converted with `new RegExp()` and special characters must be double escaped
+- Regular Expressions are case-sensitive
  
     ```js
     const editor = CodeMirror(document.body, {
@@ -15,7 +21,8 @@ Apply style to any keywords in any CodeMirror instance, with or without an activ
         "word1": "style1",
         "word2": "style1",
         "word3": "style1",
-        "word4": "style2"
+        "word4": "style2",
+        "/abc(\\d+)": "style2"
       }
     });
     ```
