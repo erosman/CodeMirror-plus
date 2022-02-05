@@ -1,4 +1,6 @@
-// copyright (c) by erosman https://github.com/erosman/CodeMirror-plus
+// keyword.js v1.0
+// copyright (c) by erosman
+// CodeMirror-plus: https://github.com/erosman/CodeMirror-plus
 // Distributed under an Mozilla Public License 2.0: https://www.mozilla.org/en-US/MPL/2.0/
 
 (function(mod) {
