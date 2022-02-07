@@ -19,7 +19,7 @@ Apply style to any keywords in any CodeMirror instance, with or without an activ
         "word1": "style1",
         "word2": "style1",
         "word3": "style1",
-        "word4": "style2",
+        "example\.com": "style2",
         "abc\\d+": "style2"
       }
     });
