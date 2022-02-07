@@ -19,8 +19,7 @@
       cm.addOverlay({
         token: function(stream) {
           for (var key in cm.options.keyword) {
-            if (key[0] === '/') key = new RegExp(key.substring(1));
-            if (stream.match(key)) return cm.options.keyword[key];
+            if (stream.match(new RegExp(key)) return cm.options.keyword[key];
           }
           stream.next();
         },
